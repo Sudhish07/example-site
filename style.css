@@ -1,0 +1,49 @@
+.head {
+    background-color: #61a476;
+    color: hwb(0 100% 0%);
+    text-align: center;
+    padding: 10px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 5px;
+    background-color: rgb(113, 241, 198);
+    margin: 0;
+    width: 100%; /* Set the width to 100% to span the entire screen */
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Add this to style the navigation links */
+.nav ul li {
+    margin: 0 10px;
+}
+
+/* Add this to style the navigation links */
+.nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Apply a basic style to the main content */
+.content {
+    gap: 20px;
+    max-width: 800px; /* Limit content width */
+    margin: 0 auto; /* Center content horizontally */
+    font-size: large;
+}
+/* Apply a basic style to images */
+img {
+    max-width: 70%;
+    height: auto;
+    margin: 20px 0;
+}
